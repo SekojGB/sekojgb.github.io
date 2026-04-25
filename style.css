@@ -1,0 +1,63 @@
+/* Background */
+body {
+    background: linear-gradient(135deg, #0f172a, #020617) !important;
+    color: #e5e7eb !important;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Main container */
+.container {
+    max-width: 900px !important;
+}
+
+/* Card */
+.profile-card {
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Title */
+.profile-card h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #38bdf8;
+}
+
+/* Subtitle */
+.subtitle {
+    color: #94a3b8;
+    margin-bottom: 10px;
+}
+
+/* Divider */
+hr {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin: 16px 0;
+}
+
+/* Expand section */
+details {
+    margin-top: 10px;
+    color: #cbd5f5;
+}
+
+summary {
+    cursor: pointer;
+    color: #7dd3fc;
+}
+
+/* Links */
+a {
+    color: #38bdf8 !important;
+}
+
+/* Subtle hover polish */
+.profile-card:hover {
+    transform: translateY(-2px);
+    transition: 0.2s ease;
+}
